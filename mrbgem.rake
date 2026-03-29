@@ -1,1 +1,0 @@
-components/mruby_component/mrbgems/mruby-denko-esp32/mrbgem.rake

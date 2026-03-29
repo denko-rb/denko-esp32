@@ -1,8 +1,9 @@
 idf_component_register(
-  SRCS mruby_main.c
-  INCLUDE_DIRS .
-  REQUIRES mruby_component
-  PRIV_REQUIRES nvs_flash esp_littlefs
+  SRCS "main.c"
+  REQUIRES picoruby-esp32
+  PRIV_REQUIRES spi_flash
+  INCLUDE_DIRS ""
 )
 
-littlefs_create_partition_image(storage ./storage FLASH_IN_PROJECT)
+set(image ../storage)
+littlefs_create_partition_image(storage ${image} FLASH_IN_PROJECT)
