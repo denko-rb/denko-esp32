@@ -1,6 +1,3 @@
-[submodule "components/mruby_component/mrbgems/mruby-denko-esp32/lib/denko"]
-	path = components/mruby_component/mrbgems/mruby-denko-esp32/lib/denko
-	url = https://github.com/denko-rb/denko.git
 [submodule "components/picoruby-esp32"]
 	path = components/picoruby-esp32
 	url = https://github.com/denko-rb/picoruby-esp32.git
